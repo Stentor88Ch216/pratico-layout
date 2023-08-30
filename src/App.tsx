@@ -66,7 +66,7 @@ export default function App() {
           <div className="canvas" ref={canvasRef}>
             <div className="buttonsContainer">
               <button onClick={() => setNum(num - 1)}> - </button>
-              <p>{num}</p>
+              <p>{num} Hello</p>
               <button onClick={() => setNum(num + 1)}> + </button>
             </div>
           </div>
